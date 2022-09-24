@@ -1,33 +1,26 @@
 
 document.getElementById("nav_red").addEventListener("mouseover", mouseOverR);
-document.getElementById("nav_red").addEventListener("mouseout", mouseOutR);
+document.getElementById("nav_red").addEventListener("mouseout", mouseOut);
 
 function mouseOverR() {
   document.body.style.backgroundColor = 'red';
 }
-
-function mouseOutR() {
+function mouseOut() {
     document.body.style.backgroundColor = 'rgb(157, 225, 225)';
 }
 
-document.getElementById("nav_green").addEventListener("mouseover", mouseOverG);
-document.getElementById("nav_green").addEventListener("mouseout", mouseOutG);
 
+
+document.getElementById("nav_green").addEventListener("mouseover", mouseOverG);
+document.getElementById("nav_green").addEventListener("mouseout", mouseOut);
 function mouseOverG() {
   document.body.style.backgroundColor = 'green';
 }
 
-function mouseOutG() {
-    document.body.style.backgroundColor = 'rgb(157, 225, 225)';
-}
+
 
 document.getElementById("nav_blue").addEventListener("mouseover", mouseOverB);
-document.getElementById("nav_blue").addEventListener("mouseout", mouseOutB);
-
+document.getElementById("nav_blue").addEventListener("mouseout", mouseOut);
 function mouseOverB() {
   document.body.style.backgroundColor = 'blue';
-}
-
-function mouseOutB() {
-    document.body.style.backgroundColor = 'rgb(157, 225, 225)';
 }

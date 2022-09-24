@@ -8,7 +8,7 @@
 }
 
 nav {
-  background-color: rgb(249, 169, 140);
+  background-color:darkgrey;
   margin:auto;
 }
 
@@ -18,14 +18,9 @@ h1 {
   color:indigo;
 }
 
-
-
-.div1_image {
-    background-color: rgb(204, 73, 110);
-    padding:50px;
-    width:10%; 
-    margin:auto;
-  }
+h3 {
+  text-align: center;
+}
 
 img{
     max-width:100%;
@@ -33,7 +28,15 @@ img{
 }
 
 p {
-  text-indent: 50px;
+  text-indent: 5%;
   text-align: justify;
   letter-spacing: 3px;
+}
+
+
+#footer-content {
+  width: 100%;
+  height: 100%;
+  background-color: #f3e5f5;
+  border: 1px solid #ab47bc;
 }
